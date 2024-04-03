@@ -12,11 +12,9 @@ function Navbar() {
                 <div className='flex gap-5'>
                     {/* Logo */}
                     <div className='p-2'>
-                        <Link to='/' className=''>
-                            <span className='text-3xl text-sky-500 font-bold italic'>Pay</span>
-                            <span className='text-3xl font-bold italic'>Pal</span>
-                            <span className='text-lg px-2 text-slate-500 font-thin italic'>Developer</span>
-                        </Link>
+                        <span className='text-3xl text-sky-500 font-bold italic'>Pay</span>
+                        <span className='text-3xl font-bold italic'>Pal</span>
+                        <span className='text-lg px-2 text-slate-500 font-thin italic'>Developer</span>
                     </div>
                     {/* Search Bar */}
                     <div className='p-2'>
@@ -33,24 +31,16 @@ function Navbar() {
                 <div className='flex gap-8'>
                     {/* Routes */}
                     <div className='flex gap-6 justify-end px-3 py-2'>
-                        <Link to='/'>
-                            <li className='hidden sm:inline text-black font-bold hover:underline cursor-pointer'>Docs</li>
-                        </Link>
-                        <Link to='/'>
-                            <li className='hidden sm:inline text-black font-bold hover:underline cursor-pointer'>APIs & SDK</li>
-                        </Link>
-                        <Link to='/'>
-                            <li className='hidden sm:inline text-black font-bold hover:underline cursor-pointer'>Tools</li>
-                        </Link>
-                        <Link to='/'>
-                            <li className='hidden sm:inline text-black font-bold hover:underline cursor-pointer'>Support</li>
-                        </Link>
+                        <li className='hidden sm:inline text-black font-bold hover:underline cursor-pointer'>Docs</li>
+                        <li className='hidden sm:inline text-black font-bold hover:underline cursor-pointer'>APIs & SDK</li>
+                        <li className='hidden sm:inline text-black font-bold hover:underline cursor-pointer'>Tools</li>
+                        <li className='hidden sm:inline text-black font-bold hover:underline cursor-pointer'>Support</li>
                     </div>
                     {/* Login Button */}
                     <button className='bg-blue-950 text-white rounded-full px-5 py-2 '>Login to Dashboard</button>
                 </div>
             </div>
-        </navbar>
+        </navbar >
     );
 }
 

@@ -1,16 +1,17 @@
 import './App.css';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import AcceptPayments from './components/AcceptPayments';
+import Explore from './components/Explore';
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+      <Home />
+      <Explore />
+      <AcceptPayments />
+    </>
   );
 }
 

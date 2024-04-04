@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import AcceptPayments from './components/AcceptPayments';
 import Explore from './components/Explore';
 import MakePayments from './components/MakePayments';
+import AdditionalSolutions from './components/AdditionalSolutions';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Explore />
       <AcceptPayments />
       <MakePayments />
+      <AdditionalSolutions />
     </>
   );
 }

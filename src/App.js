@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import AcceptPayments from './components/AcceptPayments';
 import Explore from './components/Explore';
+import MakePayments from './components/MakePayments';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Explore />
       <AcceptPayments />
+      <MakePayments />
     </>
   );
 }

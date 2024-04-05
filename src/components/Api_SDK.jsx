@@ -51,10 +51,10 @@ const Api_SDK = () => {
     ];
 
     return (
-        <div className="bg-slate-200 bg-auto gap-4 pt-10 pb-20">
-            <h1 className="text-5xl font-semibold pl-20 mt-20">Explore our APIs & SDKs</h1>
-            <div className="flex flex-wrap justify-center gap-8 mt-20">
-                <div className='px-20 flex gap-8'>
+        <div className="bg-slate-50 bg-auto pt-10 pb-20 ">
+            <h1 className="text-3xl md:text-5xl font-semibold text-center pl-20 mt-10 md:mt-20 lg:text-left">Explore our APIs & SDKs</h1>
+            <div className="flex flex-wrap justify-center gap-8 mt-20 md:mt-20">
+                <div className='px-8 md:px-20 flex flex-col md:flex-row gap-8'>
                     {cardData.map((card, index) => (
                         <Card
                             key={index}
@@ -66,14 +66,10 @@ const Api_SDK = () => {
                     ))}
                 </div>
             </div>
-            <div className='flex m-10 ml-40 gap-3'>
-                <div className=''>
-                    <FontAwesomeIcon icon={faGithub} className='text-3xl' />
-                </div>
-                <div>
-                    <h3 className='text-lg text-center'>To Browse PayPal SDKs see out GitHub library. <span className='text-blue-600'>Learn More</span></h3>
-                </div>
 
+            <div className='flex flex-col items-center mt-10 md:mt-20'>
+                <FontAwesomeIcon icon={faGithub} className='text-3xl' />
+                <p className='text-lg text-center mt-2'>To Browse PayPal SDKs see our GitHub library. <span className='text-blue-600'>Learn More</span></p>
             </div>
         </div>
     );

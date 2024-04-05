@@ -4,7 +4,7 @@ import { faFlag, faNewspaper, faIdCard } from '@fortawesome/free-solid-svg-icons
 
 function AdditionalSolutions() {
     return (
-        <div>
+        <div className='pt-20 pb-20'>
             <h1 className='text-5xl font-semibold pl-20 mt-10'>Additional Solutions</h1>
             <div className='flex gap-4 justify-items-center'>
                 <div className='px-20 mt-10'>
